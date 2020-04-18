@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<title>Toilet Paper Rush</title>
+</head>
+<body>
+	<img src="roll.png" style="width:200px;height:200px";>
+	<h1> TOILET PAPER RUSH !</h1>
+	<div class="container">
+	<div class="slidecontainer">
+		<p>How many rolls left? <input type="range" min="1" max="30" value="5" class="slider" id="rolls"><span id="rollsValue"></span></p>
+
+		<p>How many confinement days left?<input type="range" min="1" max="100" value="5" class="slider" id="days"><span id="daysValue"></span></p>
+
+		<p>How many people? <input type="range" min="1" max="10" value="3" class="slider" id="people"><span id="peopleValue"></span></p>
+
+		<p>How many time does a roll lasts (in days)?<input type="range" min="1" max="25" value="7" class="slider" id="life"><span id="lifeValue"></span></p>
+	</div>
+
+<div id="result">
+	<h2 id="ratio"></h2>
+</div>
+
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
