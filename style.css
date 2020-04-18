@@ -4,11 +4,17 @@ body{
 	background-position: margin top: 400px;
 } 
 
-h1{
-	margin-top: 138px;
+h1{	
+	font-style: italic;
+	font-size: 80px;
+	object-position: center;
+	margin-left: 530px;
+	margin-top: -150px;
+	position: fixed;
 	text-align: center;
 	color: white;
-	font-family: Arial;
+	font-family: serif;
+	color: #FFF8DC;
 }
 
 p{
@@ -20,6 +26,7 @@ p{
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
+  background-color: black;
   width: 85%;
   height: 24px;
   border: 0;
@@ -27,46 +34,27 @@ p{
 }
 
 .container {
-  background-color: #F0FFFF;
+  position: fixed;	
+  background: linear-gradient(white, grey );
   padding: 4%;
   border-radius: 2%;
   width: 40%;
-  margin: 5% auto;
+  margin-left: 500px;
+  margin-top: 180px;
   text-align: center;
   box-shadow: 5px 5px 5px 5px #dbb4ad;
 }
 
-#rolls::-moz-range-thumb {
-  background: url('roll.png');
+#images{
+	justify-content: space-around;
 }
 
-#days::-moz-range-thumb {
-  background: url('quarantine.png');
+#result{
+	color: orange;
 }
 
-#people::-moz-range-thumb {
-  background: url('people.png');
-}
 
-#life::-moz-range-thumb {
-  background: url('life.png');
-}
 
-#rolls::-webkit-slider-thumb {
-  background: url('roll.png');
-}
-
-#days::-webkit-slider-thumb {
-  background: url('quarantine.png');
-}
-
-#people::-webkit-slider-thumb {
-  background: url('people.png');
-}
-
-#life::-webkit-slider-thumb {
-  background: url('life.png');
-}
 
 
 
